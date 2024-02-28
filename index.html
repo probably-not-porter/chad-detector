@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chad Detector</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="https://images.emojiterra.com/google/android-12l/512px/1f5ff.png">
+    </head>
+    <body>
+        <div id="container">
+            <h1>The Chad Detector</h1>
+            <h3>Gotta check and make sure</h3>
+            <form autocomplete="off">
+                <input placeholder="Type a name here" autocomplete="off" oninput='compare(this.value)' type="text" id="name" name="name" required minlength="4" maxlength="30" />
+            </form>
+            <br><br>
+            <div id="result">
+                <span id='level'></span><br>
+                <span id='score'></span>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
